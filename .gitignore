@@ -1,0 +1,79 @@
+# Build directories
+build/
+bin/
+lib/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.cmake
+!CMakeLists.txt
+
+# Qt specific
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jsc
+*.qm
+*.qmlproject.user
+*.qmlproject.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+debug/
+release/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# KDE specific
+.kde/
+.kde4/
+.kde5/
+.kde6/
+
+# Application specific
+*.log
+*.cache
+*.bak
+*.tmp
+*.temp 
